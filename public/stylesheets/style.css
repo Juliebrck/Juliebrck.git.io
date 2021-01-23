@@ -1,0 +1,223 @@
+@font-face {
+	font-family: "Beau";
+    src: url("police/beau.ttf");
+    font-family: "nevoclara";
+    src: url("police/nevoclara.ttf");
+
+} 
+
+Body {
+    font-family: "roboto", "sans-serif";
+    margin: 0;
+    background-color: #F4F1DE;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* NAVBAR */
+
+
+.nav-link{
+    color: #FFFEF2;
+    letter-spacing: 2px;
+    font-size: 12px;
+} 
+
+.nav-link:hover {
+    color: bisque;
+}
+
+.haut{
+    background-color: #252525;
+}
+
+.fa-user{
+    color: #F4F1DE;
+    padding-left: 50px;
+}
+
+.fa-bars{
+    color: #F4F1DE;
+    padding-left: 10px;
+}
+
+
+/* HEADER */
+.header {
+    /* background-image: url("../images/fondvide.png"); */
+    background-color: #F4F1DE;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 60px;
+}
+
+
+/* HISTOIRE */
+.description{
+    background-color: white;
+    position: relative;
+}
+
+
+.textdescription {
+    position: relative;
+    z-index: 1;
+    background-color: #F4F1DE;
+    padding: 40px;
+    font-family: beau, "sans-serif";
+    margin-bottom: 40px;
+}
+
+h3{
+    position: relative;
+    z-index: 2;
+    font-family: nevoclara;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-size: 60px;  
+}
+
+
+
+/* NEWSLETTER */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 60px;
+    height: 40vh;
+    
+}
+
+.contact{
+    font-size: 22px;
+}
+
+.search2 {
+    border: 1px black solid;
+    width: 30vw;;
+    padding-left: 8px; 
+    outline: none;
+}
+
+.search2:hover{
+    border: 2px #F4F1DE solid ;
+}
+
+
+.go{ /* Bouton */ 
+        background-color: #252525;
+        border: 1px #252525 solid;
+        color: #F4F1DE;
+    }
+    
+.go:hover {
+        color: #252525;
+        background-color: #F4F1DE;
+}
+
+/* PARFUMS */
+.gammeparfums {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parfums{
+    margin: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.btn-primary {
+    background-color: #252525;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #252525;
+    background-color: #F4F1DE;
+}
+
+h1{
+    font-family: beau, "sans-serif";
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family: beau, "sans-serif";
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+
+.foot {
+    color: #F4F1DE;
+    background-color: #252525;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.foot2 {
+    color: #F4F1DE;
+    background-color: #252525;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.titre{
+    padding-top: 15px;
+}
+
+.copyright{
+    padding-top: 55px;
+    font-size: 14px;
+}
+
+.nav-link-bottom{
+    color: #FFFEF2;
+
+} 
+
+.nav-link-bottom:hover {
+    color: bisque;
+    text-decoration: none;
+}
+
+/* Maquette 2 */
+
+.top{
+    background-color: #F4F1DE;
+    height: 90vh;
+    width: 100vw;
+    padding-top: 5vh;
+
+}
+
+.gauche{
+    padding-top: 15vh;
+    font-size: 18px;
+}
+
+.droite{
+    padding-top: 15vh;
+    font-size: 18px;
+
+}
+
+.user{
+    padding-top: 20px;
+    height: 10vh;
+    width: 100vw;
+}
+
+
+
+
+
